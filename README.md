@@ -52,5 +52,8 @@ Trading bot results contains result of the training.
 
 
 AI_result.png shows how much does model gained from 1 US dollar it has in the start of its abalance account.
+
 Buy_and_hold.png shows how much total return gained from Buy and Hold trategy thought this period
+
 Return.png shows how much total return AI gained throughout this period
+
