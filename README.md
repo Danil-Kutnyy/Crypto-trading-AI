@@ -46,7 +46,7 @@ Model_7400 files contains tensorflow trained model, which was trained about 1.5 
 
 
 Trading bot results contains result of the training.
-7300 - represnts number of loops. As one loop is 120 minuts, 7300 loops - 1 yers, 8 months and 8 days. So, the results are showng, how does model performed from 1 january of 2017 up to 8th august of 2018
+7300 - represnts number of loops. As one loop is 120 minuts, 7300 loops - 1 yers, 8 months and 8 days. So, the results are showng, how does model performed from 1 january of 2017 up to 8th august of 2018:
 
 
 
