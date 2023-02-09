@@ -27,7 +27,7 @@ This theisis is written for my another project - stock trading bot, but it has m
 learning.
 
 
-Market enviroonmet represnts an object - market. It has only one method - step, which accept 0 or 1 as a parameter.
+Market environment represnts an object - market. It has only one method - step, which accept 0 or 1 as a parameter.
 To play on the market - you have to choose, buy or sell cryptoasset. (1 or 0).
 After desision is made, step method return result for the next minute of market data and calulate your reward.
 In this way, Neural network can make action (buy or sell) and immediately get response (reward), of how well it performed, 
@@ -41,11 +41,16 @@ Trianing of the neural network is happening in the RL_train.py. Policy gradients
 
 
 
-Model_7400 files contains tensorflow trained model, which was trained for 4 years of per-minute data
+Model_7400 files contains tensorflow trained model, which was trained about 1.5 years of per-minute data (14800 hours to be exact)
 
 
 
-Trading bot results contains 3 model result with different parameter: -30, 30 adn 50.
-acc_histor_7300.csv - contains information of accout balance during lasst training session(one trainign session = 120 minutes)
-bh_history_7300.csv - contains information of accout balance during lasst training session, if the agent using buy&hold strategy
-r_histor_7300.csv - contains information of model reuturn(decrese or increse in total capital) during last traning session
+Trading bot results contains result of the training.
+7300 - represnts number of loops. As one loop is 120 minuts, 7300 loops - 1 yers, 8 months and 8 days. So, the results are showng, how does model performed from 1 january of 2017 up to 8th august of 2018
+
+
+
+
+AI_result.png shows how much does model gained from 1 US dollar it has in the start of its abalance account.
+Buy_and_hold.png shows how much total return gained from Buy and Hold trategy thought this period
+Return.png shows how much total return AI gained throughout this period
